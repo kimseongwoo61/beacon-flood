@@ -8,7 +8,7 @@
 - 의존 모듈 : sys, socket, struct, random, binascii
 - 사용법
     
-    입력되는 무선랜 인터페이스가 반드시 Monitor mode여야 정상적으로 Sniffing이 가능합니다.
+    입력되는 무선랜 인터페이스가 반드시 Monitor mode여야 정상적으로 Beacon flooding 공격이 가능합니다.
     
     ```python
     sudo python beacon-flood.py <interface> <ssid-list-file>
